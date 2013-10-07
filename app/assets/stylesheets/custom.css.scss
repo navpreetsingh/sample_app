@@ -155,7 +155,8 @@ aside {
 
 /* forms */
 
-input, textarea, select, .uneditable-input {
+input, textarea, select, .uneditable-input 
+{
   border: 1px solid #bbb;
   width: 100%;
   margin-bottom: 15px;
@@ -167,7 +168,8 @@ input
   height: auto !important;
 }
 
-#error_explanation {
+#error_explanation 
+{
   color: #f00;
   ul {
     list-style: none;
@@ -175,7 +177,8 @@ input
   }
 }
 
-.field_with_errors {
+.field_with_errors 
+{
   @extend .control-group;
   @extend .error;
 }
